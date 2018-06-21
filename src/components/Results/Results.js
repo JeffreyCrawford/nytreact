@@ -1,13 +1,12 @@
 import React, { Component } from "react";
+import Article from "../Fetch"
 import "./Results.css";
 
 
 class Results extends Component {
     render() {
         return(
-            <div>
-                <h1>RESULTS GO HERE</h1>
-            </div>
+            <Article />
         )
     }
 }

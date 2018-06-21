@@ -6,17 +6,17 @@ class Jumbotron extends Component {
     render() {
         return(
             <div>
-                <div class="jumbotron text-center">
-                <div class="overlay">
+                <div className="jumbotron text-center">
+                <div className="overlay">
                 </div>
-                <div class="background-image">
+                <div className="background-image">
                 </div>
-                <div class="caption">
+                <div className="caption">
                     <h1>Mongo Scraper</h1>
                     <p>New York Times Edition</p>
                 </div>
                 </div>
-                <div class="container-fluid article-container">
+                <div className="container-fluid article-container">
                 </div>
             </div>
         )

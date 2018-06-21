@@ -11,7 +11,7 @@ class Home extends Component {
             <div>
                 <Header />
                 <Jumbotron />
-                <div class="container">
+                <div className="container">
                     <Search />
                     <Results />
                 </div>

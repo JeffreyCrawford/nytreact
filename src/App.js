@@ -8,7 +8,7 @@ import './App.css';
 const App = () => (
   <div>
     <Home />
-    <div class="container">
+    <div className="container">
       <Saved />
     </div>
   </div>
