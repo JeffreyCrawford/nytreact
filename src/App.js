@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Jumbotron from './components/Jumbotron/';
+import Home from "./components/Home";
+import Saved from "./components/Saved";
 
 import './App.css';
 
