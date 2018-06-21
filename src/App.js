@@ -5,10 +5,10 @@ import Jumbotron from './components/Jumbotron/';
 import './App.css';
 
 const App = () => (
-  
-    <Jumbotron />
-
-
+  <div>
+    <Home />
+    <Saved />
+  </div>
 );
 
 export default App;
