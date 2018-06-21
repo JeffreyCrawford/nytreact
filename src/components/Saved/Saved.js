@@ -7,6 +7,8 @@ class Saved extends Component {
         return(
             <div>
 
+                    <h1>SAVED ARTICLES GO HERE</h1>
+
             </div>
         )
     }
