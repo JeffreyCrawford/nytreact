@@ -1,12 +1,35 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Header.css";
 
 
 class Header extends Component {
     render() {
-    <div>
+    return(
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/">Mongo Scraper</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </div>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home
+                <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/saved">Saved Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    )
+
     }
 }
 

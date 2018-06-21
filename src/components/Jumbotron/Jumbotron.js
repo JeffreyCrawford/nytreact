@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Jumbotron.css";
 
 
 class Jumbotron extends Component {
     render() {
-    <div>
+        return(
+            <div>
 
-    </div>
+            </div>
+        )
     }
 }
 

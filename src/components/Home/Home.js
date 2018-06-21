@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Home.css";
 import Header from "../Header";
 import Jumbotron from "../Jumbotron";
@@ -7,11 +7,15 @@ import Results from "../Results";
 
 class Home extends Component {
     render() {
-    <div>
-        <Header />
-        <Jumbotron />
-    </div>
+        return(
+            <div>
+                <Header />
+                <Jumbotron />
+                <Search />
+                <Results />
+            </div>
+        )
     }
 }
 
-export default Home
+export default Home;

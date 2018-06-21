@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Saved.css";
 
 
 class Saved extends Component {
     render() {
-    <div>
+        return(
+            <div>
 
-    </div>
+            </div>
+        )
     }
 }
 
